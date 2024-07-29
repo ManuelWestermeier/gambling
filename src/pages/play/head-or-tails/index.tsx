@@ -38,6 +38,7 @@ export default function HeadOrTailsPage() {
   return (
     <div className="page">
       <div className="container">
+        <h2>Gambling Live</h2>
         <Link to="/">Home</Link>
         <p>money: {userData.money}</p>
         <fieldset className="container">
