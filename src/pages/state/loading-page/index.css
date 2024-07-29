@@ -1,0 +1,16 @@
+.loading-spinner {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--p);
+    border-radius: calc(var(--size) / 2);
+    margin: 10px;
+    animation: loading-spinner-anim 1s ease-in-out infinite;
+}
+
+@keyframes loading-spinner-anim {
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 100px 0px var(--p);
+    }
+}

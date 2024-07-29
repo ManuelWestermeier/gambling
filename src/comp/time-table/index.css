@@ -1,0 +1,11 @@
+.past-day {
+    background-color: yellowgreen;
+}
+
+.future-day {
+    background-color: red;
+}
+
+.current-day {
+    background-color: dodgerblue;
+}
